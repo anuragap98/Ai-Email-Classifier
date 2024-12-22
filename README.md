@@ -25,15 +25,16 @@
 
 ### Installation: :rocket:
 
-1. Open a terminal or command prompt and navigate to your desired project directory. Then, run the following command to clone the Ai Email Classifier repository from GitHub:
-	   ```bash
-	   git clone https://github.com/TheThinker01/AiEmailClassifier.git
-	   ```
+1. Open a terminal or command prompt and navigate to your desired project directory. Then,
+   * Run the following command to clone the Ai Email Classifier repository from GitHub:
+		```bash
+		git clone https://github.com/TheThinker01/AiEmailClassifier.git
+		```
    * Install Python `virtualenv`
 	   ```bash
 	   pip install virtualenv
 	   ```
-2. Create and Activate a Virtual Environment (Recommended):
+3. Create and Activate a Virtual Environment (Recommended):
 	   ```bash
 	   virtualenv env        # Create a virtual environment named 'env'
 	   source env/bin/activate  # Activate the virtual environment (Linux/macOS)
@@ -43,11 +44,11 @@
 	   env\Scripts\activate.bat # Activate the virtual environment (Windows)
 	   ```
 
-3. Install all the dependencies
+4. Install all the dependencies
 	   ```bash
 	   pip install -r Requirements.txt
 	   ```
-4. Run the Server:
+5. Run the Server:
 	   ```bash
 	   python manage.py runserver 127.0.0.1:8000
 	   ```
