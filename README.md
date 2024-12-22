@@ -2,35 +2,59 @@
 # AI Email Classifier
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)  
-##### An AI Application for classifying emails into categories  
+
+
+##### An AI Application for classifying emails into categories
+
 ### Features :octocat:  
+* **Leverages both Machine Learning (ML) and Deep Learning (DL) models:**
+	* Offers flexibility and the ability to choose the most suitable model for different datasets and classification tasks.
+* **High Accuracy:** Demonstrates high accuracy on unseen datasets, ensuring reliable and effective email categorization.
+* **User-Friendly Web Interface:** Provides a clean and intuitive interface for:
+	* Training: Easily train and fine-tune the models using labeled email datasets.
+	( Testing: Conveniently test the classifier with individual emails or batches of emails.
+* **REST API Gateway:** Enables seamless integration with other applications:
+	* Single Email Classification: Classifies a single email by sending its subject and body in a request.
+	* Batch Email Classification: Efficiently classifies a large number of emails in a single API call.
+ 
 
-* Features both ML and DL model 
-* Provides a high accuracy over unseen dataset
-* Clean and Easy to use Web Interface for Training and Testing  
-* REST API Gateway which presently supports the following requests
+### Prerequisites: :book:
 
-    * __Single__ : Returns the classified category on sending the subject and body of a single email  
-    * __Batch__  : For classifying a large number of emails in one call. 
-   
-### Installation :rocket:
+* Git: If you haven't already, install Git from https://git-scm.com/downloads.
+* Python 3.x: Download and install Python 3 from https://www.python.org/downloads/.
 
-1.  Clone this source code into local directory  
-	`git clone https://github.com/TheThinker01/AiEmailClassifier.git `
-1.	Install Python _Virtualenv_  
-	`pip install virtualenv`
-1.  Create a _virtualenv_ in project directory  
-	`virtualenv env`
-1. 	Activate the virtual environment  
-	__Linux__   : `source /env/bin/activate`  
-    __Windows__ : `\env\Scripts\activate.bat`
-1. 	Install all the dependencies  
-	`pip install -r Requirements.txt`
-1.  All Done :smile: ! Now run the server  
-	`python manage.py runserver 127.0.0.1:8000`
-1. 	Open `127.0.0.1:8000/ml` on your browser  :tada:
+### Installation: :rocket:
 
-### Requirements 
-* All the packages and libraries used are listed in `Requirements.txt`
+1. Open a terminal or command prompt and navigate to your desired project directory. Then, run the following command to clone the Ai Email Classifier repository from GitHub:
+	   ```bash
+	   git clone https://github.com/TheThinker01/AiEmailClassifier.git
+	   ```
+   * Install Python `virtualenv`
+	   ```bash
+	   pip install virtualenv
+	   ```
+2. Create and Activate a Virtual Environment (Recommended):
+	   ```bash
+	   virtualenv env        # Create a virtual environment named 'env'
+	   source env/bin/activate  # Activate the virtual environment (Linux/macOS)
+	   ```
+   * For Windows, activate the virtual environment using:
+	   ```bash
+	   env\Scripts\activate.bat # Activate the virtual environment (Windows)
+	   ```
 
-##### Collaborative Effort of Team _AI200416_
+3. Install all the dependencies
+	   ```bash
+	   pip install -r Requirements.txt
+	   ```
+4. Run the Server:
+	   ```bash
+	   python manage.py runserver 127.0.0.1:8000
+	   ```
+6. Access the Application:
+   * Open the specified URL (e.g., http://127.0.0.1:8000/ml) in your web browser. :tada:
+
+> ### Requirements 
+* All required packages and libraries are listed in the Requirements.txt file.
+
+#### Collaborative Effort by Team - AI200416
