@@ -27,9 +27,9 @@
 
 1. Open a terminal or command prompt and navigate to your desired project directory. Then,
    * Run the following command to clone the Ai Email Classifier repository from GitHub:
-		```bash
-		git clone https://github.com/TheThinker01/AiEmailClassifier.git
-		```
+	   ```bash
+	   git clone https://github.com/TheThinker01/AiEmailClassifier.git
+	   ```
    * Install Python `virtualenv`
 	   ```bash
 	   pip install virtualenv
@@ -44,18 +44,20 @@
 	   env\Scripts\activate.bat # Activate the virtual environment (Windows)
 	   ```
 
-4. Install all the dependencies
-	   ```bash
-	   pip install -r Requirements.txt
-	   ```
-5. Run the Server:
-	   ```bash
-	   python manage.py runserver 127.0.0.1:8000
-	   ```
-6. Access the Application:
+4. Install all the dependencies -
+   ```bash
+   pip install -r Requirements.txt
+   ```
+6. Run the Server - 
+   ```bash
+   python manage.py runserver 127.0.0.1:8000
+   ```
+7. Access the Application:
    * Open the specified URL (e.g., http://127.0.0.1:8000/ml) in your web browser. :tada:
 
 > ### Requirements 
 * All required packages and libraries are listed in the Requirements.txt file.
 
-#### Collaborative Effort by Team - AI200416
+
+> ### Credits - Collaborative Effort by Team - AI200416
+* Thanks to the following contributors: [Archisman Pathak](https://github.com/TheThinker01)
